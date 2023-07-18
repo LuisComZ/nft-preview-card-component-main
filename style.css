@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@100;300;400;500;600;700&family=Oxanium:wght@300;400;700&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium {
+  width: 302px;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+}
+
+.description {
+  font-size: 18px;
+  color: hsl(215 51% 70%);
+  opacity: 0.5;
+}
+
+.buy-options {
+  display: flex;
+  gap: 180px;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.artist-name {
+  color: white;
+}
