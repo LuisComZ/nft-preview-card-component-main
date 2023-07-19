@@ -12,50 +12,90 @@ body {
   background-color: hsl(217, 54%, 11%);
 }
 
-.card {
+main {
+  width: 350px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 16px;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   background-color: hsl(216, 50%, 16%);
 }
 
 .equilibrium {
-  width: 302px;
+  width: 305px;
+
+  display: flex;
+  align-self: center;
 }
 
 .title {
+  margin-left: 10px;
+
   font-size: 24px;
+
   color: white;
 }
 
 .description {
+  margin-top: -10px;
+  margin-left: 10px;
   font-size: 18px;
+
   color: hsl(215 51% 70%);
   opacity: 0.5;
 }
 
 .buy-options {
+  width: 305px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+
   display: flex;
-  gap: 180px;
+  gap: 120px;
+}
+
+.ethereum {
+  display: flex;
+  align-items: center;
 }
 
 .price {
+  margin-left: 5px;
   color: hsl(178, 100%, 50%);
 }
 
+.days-left {
+  display: flex;
+  align-items: center;
+}
+
 .time {
+  margin-left: 5px;
   color: hsl(215, 51%, 70%);
 }
 
 .credits {
+  margin-top: -10px;
+  margin-left: 10px;
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
 
 .photo {
   width: 30px;
+  margin-right: 15px;
   border: 1px solid white;
   border-radius: 50%;
 }
