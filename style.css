@@ -30,11 +30,38 @@ main {
   background-color: hsl(216, 50%, 16%);
 }
 
-.equilibrium {
-  width: 305px;
-
+.img-top {
   display: flex;
   align-self: center;
+}
+
+.img-top img {
+  width: 305px;
+  cursor: pointer;
+}
+
+.img-overlay {
+  display: none;
+  width: 305px;
+  height: 305px;
+
+  position: absolute;
+  left: 6.5%;
+
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.img-overlay img {
+  width: 50px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-top:hover .img-overlay {
+  display: block;
 }
 
 .title {
@@ -43,6 +70,12 @@ main {
   font-size: 24px;
 
   color: white;
+
+  cursor: pointer;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .description {
@@ -106,4 +139,9 @@ main {
 
 .artist-name {
   color: white;
+  cursor: pointer;
+}
+
+.artist-name:hover {
+  color: hsl(178, 100%, 50%);
 }
